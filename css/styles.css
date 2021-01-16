@@ -355,8 +355,8 @@ header {
     /* margin-left: -100px; */
     align-self: center;
     margin: 10px;
-    width: 400px;
-    height: 340px;
+    width: 240px;
+    height: 380px;
   }
 
   .certification .container section img {
@@ -384,6 +384,14 @@ header {
     cursor: pointer;
     font-size: 1em;
     bottom: 0;
+  }
+
+  .certification .container section label:nth-child(odd) {
+    right: 60px;
+  }
+
+  .certification .container section label:nth-child(even) {
+    left: 60px;
   }
 }
 
